@@ -1,0 +1,50 @@
+{
+    "editor.formatOnSave": true,
+    "editor.tabSize": 4,
+    "editor.rulers": [
+        80,
+        120
+    ],
+    "[json]": {
+        "editor.formatOnSave": false,
+        "editor.rulers": [
+            80,
+            120
+        ]
+    },
+    "python.languageServer": "Pylance",
+    "python.analysis.gotoDefinitionInStringLiteral": true,
+    "python.analysis.inlayHints.pytestParameters": true,
+    "python.autoComplete.extraPaths": [
+        "./src"
+    ],
+    "python.analysis.extraPaths": [
+        "./src"
+    ],
+    "python.analysis.addImport.exactMatchOnly": true,
+    "python.analysis.autoFormatStrings": true,
+    "python.analysis.completeFunctionParens": true,
+    "python.analysis.importFormat": "absolute",
+    "python.analysis.autoImportCompletions": true,
+    "python.analysis.autoSearchPaths": true,
+    "python.defaultInterpreterPath": "python",
+    "python.pipenvPath": "pipenv",
+    "python.envFile": "${workspaceFolder}/.env",
+    "python.terminal.activateEnvironment": true,
+    "python.terminal.executeInFileDir": true,
+    "jupyter.interactiveWindow.codeLens.enable": true,
+    "jupyter.askForKernelRestart": false,
+    "jupyter.variableExplorerExclude": "module;function;builtin_function_or_method;ABCMeta;type;ModelMetaclass",
+    "notebook.breadcrumbs.showCodeCells": true,
+    "notebook.cellFocusIndicator": "gutter",
+    "notebook.cellToolbarVisibility": "hover",
+    "notebook.compactView": true,
+    "notebook.dragAndDropEnabled": true,
+    "notebook.showFoldingControls": "always",
+    "jupyter.notebookFileRoot": "${workspaceFolder}",
+    "notebook.lineNumbers": "on",
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "right"
+    }
+}
